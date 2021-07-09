@@ -1,7 +1,7 @@
 import express from "express"
 import AccomodationModel from "../models/Accomodation"
 
-interface Accomodation {
+export interface Accomodation {
   name: string
   descritpion: string
   maxGuests: number

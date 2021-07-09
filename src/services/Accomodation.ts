@@ -1,7 +1,5 @@
 import express from "express"
 import AccomodationModel from "../models/Accomodation"
-import { ActiveUser } from "../server"
-// import shared from "../shared"
 
 const accomodationRouter = express.Router()
 
